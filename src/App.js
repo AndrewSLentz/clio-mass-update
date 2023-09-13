@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    authorizeUser();
+  }, []);
+
+  const authorizeUser = async () => {
+    const response = await fetch('https://app.clio.com/oauth/authorize', {
+      response_type: 'code',
+      client_id: 'rdaq4fRe19tYdvBpqkbWtRBbgi9tQUkoWjgtTlXn',
+      redirect_uri: 'https://andrewslentz.github.io/clio-mass-update/'
+    })
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Hello World!
     </div>
   );
 }
