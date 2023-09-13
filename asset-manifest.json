@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/clio-mass-update/static/css/main.073c9b0a.css",
+    "main.js": "/clio-mass-update/static/js/main.bbecfd00.js",
+    "static/js/787.1f24b125.chunk.js": "/clio-mass-update/static/js/787.1f24b125.chunk.js",
+    "index.html": "/clio-mass-update/index.html",
+    "main.073c9b0a.css.map": "/clio-mass-update/static/css/main.073c9b0a.css.map",
+    "main.bbecfd00.js.map": "/clio-mass-update/static/js/main.bbecfd00.js.map",
+    "787.1f24b125.chunk.js.map": "/clio-mass-update/static/js/787.1f24b125.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.bbecfd00.js"
+  ]
+}
